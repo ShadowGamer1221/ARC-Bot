@@ -20,7 +20,7 @@ class DoubleCommand extends Command {
     constructor() {
         super({
             trigger: 'x2',
-            description: 'Sends the announcement that x2 has been enabled on the server',
+            description: 'Sends an announcement that x2 has been enabled on the server',
             type: 'ChatInput',
             module: 'admin',
             args: [],
