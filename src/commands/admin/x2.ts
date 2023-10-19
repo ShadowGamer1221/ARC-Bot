@@ -60,8 +60,8 @@ class DoubleCommand extends Command {
         });
 
         let Mentions = await channelSend.send({
-            content: `<@&1137717141227962480> <@&1138884920756944896>`,
-            allowedMentions: { roles: ['1137717141227962480', '1138884920756944896'] },
+            content: `<@&900771217345216532>`,
+            allowedMentions: { roles: ['900771217345216532'] },
         });
 
   const successEmbed = new MessageEmbed()
